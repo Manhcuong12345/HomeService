@@ -1,0 +1,4 @@
+cron:
+- description: "call to wakeup google cloud"
+  url: /api
+  schedule: every 5 mins

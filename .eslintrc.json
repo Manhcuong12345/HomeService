@@ -1,0 +1,22 @@
+{
+    "root": true,
+    "extends": ["eslint:recommended"],
+    "plugins": ["prettier"],
+    "env": {
+        "es6": true,
+        "node": true
+    },
+    "globals": {
+        "process": true,
+        "console": true
+    },
+    "rules": {
+        "curly": ["error"],
+        "prefer-const": ["error"],
+        "prettier/prettier": "error",
+        "no-var": ["error"]
+    },
+    "parserOptions": {
+        "sourceType": "module"
+    }
+}
